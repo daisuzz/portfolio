@@ -1,28 +1,33 @@
 <template>
-  <div id="app">
-    <img alt="Vue logo" src="./assets/logo.png" />
-    <HelloWorld msg="Welcome to Your Vue.js App" />
-  </div>
+  <v-app>
+    <Bar/>
+    <v-content class="mx-auto">
+      <v-divider></v-divider>
+      <Timeline></Timeline>
+      <v-divider></v-divider>
+      <Ratings/>
+      <v-divider></v-divider>
+    </v-content>
+    <Footer/>
+  </v-app>
 </template>
 
 <script>
-import HelloWorld from "./components/HelloWorld.vue";
+    import Bar from "./components/Bar"
+    import Timeline from "./components/Timeline"
+    import Ratings from "./components/Ratings";
+    import Footer from "./components/Footer";
 
-export default {
-  name: "app",
-  components: {
-    HelloWorld
-  }
-};
+    export default {
+        name: "App",
+        components: {
+            Bar,
+            Timeline,
+            Ratings,
+            Footer
+        },
+        data: () => ({
+            //
+        })
+    };
 </script>
-
-<style>
-#app {
-  font-family: "Avenir", Helvetica, Arial, sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-  text-align: center;
-  color: #2c3e50;
-  margin-top: 60px;
-}
-</style>
