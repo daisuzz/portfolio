@@ -1,33 +1,36 @@
 <template>
   <v-app>
-    <Bar/>
-    <v-content class="mx-auto">
+    <DHeader/>
+    <v-content>
+      <DTopImage/>
+      <DAbout/>
       <v-divider></v-divider>
-      <Timeline></Timeline>
+      <DExperience/>
       <v-divider></v-divider>
-      <Ratings/>
-      <v-divider></v-divider>
+      <DSkill/>
     </v-content>
-    <Footer/>
+
+    <DFooter/>
   </v-app>
 </template>
 
 <script>
-    import Bar from "./components/Bar"
-    import Timeline from "./components/Timeline"
-    import Ratings from "./components/Ratings";
-    import Footer from "./components/Footer";
+    import DHeader from "./components/DHeader";
+    import DAbout from "./components/DAbout";
+    import DExperience from "./components/DExperience";
+    import DSkill from "./components/DSkill";
+    import DFooter from "./components/DFooter";
+    import DTopImage from "./components/DTopImage";
 
     export default {
         name: "App",
         components: {
-            Bar,
-            Timeline,
-            Ratings,
-            Footer
-        },
-        data: () => ({
-            //
-        })
+            DHeader: DHeader,
+            DAbout: DAbout,
+            DTopImage: DTopImage,
+            DExperience: DExperience,
+            DSkill: DSkill,
+            DFooter: DFooter
+        }
     };
 </script>
