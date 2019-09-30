@@ -5,7 +5,7 @@
       <v-timeline-item
           v-for="experience in experiences"
           :key="experience"
-          color="red lighten-2"
+          color="indigo lighten-2"
           large
       >
         <template v-slot:opposite>
