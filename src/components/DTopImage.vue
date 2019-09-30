@@ -1,13 +1,13 @@
 <template>
   <v-parallax
       dark
-      src="https://cdn.vuetifyjs.com/images/backgrounds/vbanner.jpg"
+      src="../assets/top.png"
   >
     <v-row
         align="center"
         justify="center"
     >
-      <h1 class="display-2 font-weight-thin mb-4">Software Engineer</h1>
+      <h1 class="display-2 font-weight-medium mb-4">FREITAGEEK</h1>
     </v-row>
   </v-parallax>
 </template>
