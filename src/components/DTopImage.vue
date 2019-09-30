@@ -7,7 +7,7 @@
         align="center"
         justify="center"
     >
-      <h1 class="display-2 font-weight-medium mb-4">FREITAGEEK</h1>
+      <h1 class="display-2 font-weight-regular mb-4">I'm DAIS39</h1>
     </v-row>
   </v-parallax>
 </template>
