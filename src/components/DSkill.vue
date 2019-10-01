@@ -1,6 +1,6 @@
 <template>
   <v-content class="mx-10 py-10">
-    <h1>Skill</h1>
+    <h1 class="font-italic font-weight-medium">Skill</h1>
     <div class="text-center">
       <v-row
           v-for="i in 2"

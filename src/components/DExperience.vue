@@ -1,6 +1,6 @@
 <template>
   <v-content class="mx-10 py-10">
-    <h1>Experience</h1>
+    <h1 class="font-italic font-weight-medium">Experience</h1>
     <v-timeline>
       <v-timeline-item
           v-for="experience in experiences"
