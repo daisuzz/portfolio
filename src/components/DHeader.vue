@@ -2,16 +2,35 @@
   <div>
     <v-app-bar color="white darken-4">
       <v-toolbar-title class="headline text-uppercase">
-        <span class="font-weight-light">PORTFOLIO PAGE</span>
+        <span class="font-italic font-weight-light">PORTFOLIO PAGE</span>
       </v-toolbar-title>
       <v-spacer></v-spacer>
+      <v-btn icon href="https://github.com/dais39" target="_blank">
+        <v-icon x-large>{{ gitHubSvgPath }}</v-icon>
+      </v-btn>
+      <v-btn icon href="https://twitter.com/dais39_" target="_blank">
+        <v-icon x-large>{{ twitterSvgPath }}</v-icon>
+      </v-btn>
+      <v-btn icon href="https://www.linkedin.com/in/daisaku-suzuki-1a37aa161/" target="_blank">
+        <v-icon x-large>{{ linkedinSvgPath }}</v-icon>
+      </v-btn>
+      <v-btn icon href="https://iikanji.hatenablog.jp" target="_blank">
+        <v-icon x-large>{{ textSvgPath }}</v-icon>
+      </v-btn>
     </v-app-bar>
 
   </div>
 </template>
 <script>
+    import { mdiGithubCircle, mdiTwitterCircle, mdiLinkedinBox, mdiTagTextOutline } from '@mdi/js';
     export default {
-        name: "DHeader"
+        name: "DHeader",
+        data: () => ({
+            twitterSvgPath: mdiTwitterCircle,
+            gitHubSvgPath: mdiGithubCircle,
+            linkedinSvgPath: mdiLinkedinBox,
+            textSvgPath: mdiTagTextOutline
+        }),
     };
 </script>
 

@@ -1,5 +1,5 @@
 <template>
-  <v-app>
+  <v-app >
     <DHeader/>
     <v-content>
       <DTopImage/>
@@ -8,6 +8,8 @@
       <DExperience/>
       <v-divider></v-divider>
       <DSkill/>
+      <v-divider></v-divider>
+      <DCertificate></DCertificate>
     </v-content>
 
     <DFooter/>
@@ -21,6 +23,7 @@
     import DSkill from "./components/DSkill";
     import DFooter from "./components/DFooter";
     import DTopImage from "./components/DTopImage";
+    import DCertificate from "./components/DCertificate";
 
     export default {
         name: "App",
@@ -30,6 +33,7 @@
             DTopImage: DTopImage,
             DExperience: DExperience,
             DSkill: DSkill,
+            DCertificate: DCertificate,
             DFooter: DFooter
         }
     };
