@@ -29,10 +29,9 @@
             return {
                 experiences: [
                     {
-                        title: "working Yahoo! JAPAN",
-                        text: `I have developed a REST API with Java, Spring Framework.
-                              And I have developed a back-office software by using Kotlin, Node.js, Vue.js.
-                              Additionally, I have been a Scrum Master for a year. `,
+                        title: "working at Yahoo! JAPAN",
+                        text: `I have developed an internal application with Java, Spring Framework, Kotlin, Node.js, Nuxt.js.
+                              Additionally, I have supported a development team as a Scrum Master for a year. `,
                         term: "2017/4 ~ "
                     },
                     {
