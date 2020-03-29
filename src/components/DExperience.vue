@@ -32,13 +32,11 @@
                         title: "working at Yahoo! JAPAN",
                         text: `I have developed an internal application with Java, Spring Framework, Kotlin, Node.js, Nuxt.js.
                               Additionally, I have supported a development team as a Scrum Master for a year. `,
-                        term: "2017/4 ~ "
+                        term: "2017/4 ~ 2020/4"
                     },
                     {
                         title: "finished Master's degree in Chiba University.",
-                        text: `I graduated in Graduate School of Advanced Integration Science, Department Information Science.
-                               I had studied about Internet Security and Computer Network.
-                               I proposed a way to prevent session hijacking and implemented a reverse proxy server.`,
+                        text: "Graduate School of Advanced Integration Science, Department Information Science.",
                         term: "2015/4 ~ 2017/3"
                     },
                     {
