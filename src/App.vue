@@ -2,6 +2,7 @@
   <v-app>
     <DHeader/>
     <v-content>
+      <DAvatar/>
       <DAbout/>
       <v-divider></v-divider>
       <DExperience/>
@@ -10,13 +11,13 @@
       <v-divider></v-divider>
       <DCertificate></DCertificate>
     </v-content>
-
     <DFooter/>
   </v-app>
 </template>
 
 <script>
     import DHeader from "./components/DHeader";
+    import DAvatar from "./components/DAvatar";
     import DAbout from "./components/DAbout";
     import DExperience from "./components/DExperience";
     import DSkill from "./components/DSkill";
@@ -26,6 +27,7 @@
     export default {
         name: "App",
         components: {
+            DAvatar: DAvatar,
             DHeader: DHeader,
             DAbout: DAbout,
             DExperience: DExperience,
