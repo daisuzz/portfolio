@@ -5,10 +5,10 @@
         <span class="font-italic font-weight-light">PORTFOLIO PAGE</span>
       </v-toolbar-title>
       <v-spacer></v-spacer>
-      <v-btn icon href="https://github.com/dais39" target="_blank">
+      <v-btn icon href="https://github.com/daisuzz" target="_blank">
         <v-icon x-large>{{ gitHubSvgPath }}</v-icon>
       </v-btn>
-      <v-btn icon href="https://twitter.com/dais39_" target="_blank">
+      <v-btn icon href="https://twitter.com/daisuzz" target="_blank">
         <v-icon x-large>{{ twitterSvgPath }}</v-icon>
       </v-btn>
       <v-btn icon href="https://www.linkedin.com/in/daisaku-suzuki-1a37aa161/" target="_blank">
