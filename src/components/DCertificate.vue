@@ -23,7 +23,11 @@
         <v-list-item-content>
           <v-list-item-title>Certified ScrumMaster(CSM)</v-list-item-title>
           <v-list-item-subtitle>認定スクラムマスター</v-list-item-subtitle>
-          <v-list-item-subtitle>https://bcert.me/bc/html/show-badge.html?b=mtyhtttd</v-list-item-subtitle>
+          <v-list-item-subtitle>
+            <a href="https://bcert.me/bc/html/show-badge.html?b=mtyhtttd" target="_blank">
+              https://bcert.me/bc/html/show-badge.html?b=mtyhtttd
+            </a>
+          </v-list-item-subtitle>
         </v-list-item-content>
       </v-list-item>
     </v-card>
