@@ -1,8 +1,8 @@
 <template>
   <div>
-    <v-app-bar color="white darken-4">
+    <v-app-bar color="blue darken-4" :dark="true">
       <v-toolbar-title class="headline text-uppercase">
-        <span class="font-italic font-weight-light">PORTFOLIO PAGE</span>
+        <span class="font-italic font-weight-regular">PORTFOLIO</span>
       </v-toolbar-title>
       <v-spacer></v-spacer>
       <v-btn icon href="https://github.com/daisuzz" target="_blank">
@@ -22,7 +22,8 @@
   </div>
 </template>
 <script>
-    import { mdiGithubCircle, mdiTwitterCircle, mdiLinkedinBox, mdiTagTextOutline } from '@mdi/js';
+    import {mdiGithubCircle, mdiLinkedinBox, mdiTagTextOutline, mdiTwitterCircle} from '@mdi/js';
+
     export default {
         name: "DHeader",
         data: () => ({
