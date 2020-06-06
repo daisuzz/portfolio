@@ -2,7 +2,7 @@
   <div>
     <v-app-bar color="blue darken-4" :dark="true">
       <v-toolbar-title class="headline text-uppercase">
-        <span class="font-italic font-weight-regular">PORTFOLIO</span>
+        <span class="font-italic font-weight-regular">daisuzz </span>
       </v-toolbar-title>
       <v-spacer></v-spacer>
       <v-btn icon href="https://github.com/daisuzz" target="_blank">

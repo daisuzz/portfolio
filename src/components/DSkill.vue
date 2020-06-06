@@ -38,7 +38,7 @@
                     [
                         {
                             item: "Java",
-                            rating: 4
+                            rating: 3
                         },
                         {
                             item: "Kotlin (Server-side)",
@@ -46,7 +46,7 @@
                         },
                         {
                             item: "Node.js",
-                            rating: 3
+                            rating: 2
                         }
                     ],
                     [

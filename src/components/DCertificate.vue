@@ -1,5 +1,5 @@
 <template>
-  <v-container>
+  <v-container class="mx-10 py-10">
     <h1 class="font-italic font-weight-medium">Certificate</h1>
     <v-card
         class="mx-auto"
