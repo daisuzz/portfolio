@@ -1,0 +1,6 @@
+version: "3.8"
+services:
+  portfolio:
+    image: portfolio
+    ports:
+    - 8080:8080
