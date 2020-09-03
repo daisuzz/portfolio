@@ -1,0 +1,15 @@
+name: Deploy application
+
+on:
+  push:
+    branches:
+      - master
+
+jobs:
+  deploy:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/setup-node@v2-beta
+        with:
+          node-version: 12
+      - run: npm run build
