@@ -31,19 +31,19 @@ export default {
       skills: [
         [
           {
-            item: "Java/SpringBoot",
+            item: "Java/SpringBoot, Thymeleaf",
             rating: 3,
-            text: "REST APIの実装, Thymeleafを利用したWebアプリケーションの実装"
+            text: "権限管理システム, 社員情報連携バッチシステム 入稿システム, BtoCアプリケーションの実装"
           },
           {
             item: "Kotlin (Server-side)/SpringBoot",
             rating: 4,
-            text: "REST APIの実装, バッチの実装, コンパイラ/アセンブラの実装"
+            text: "権限管理システムの実装, 社員情報連携バッチシステムの実装, コンパイラ/アセンブラの実装"
           },
           {
             item: "Node.js/Express.js/Vue.js",
             rating: 2,
-            text: "Nuxt.js, Express.jsを利用した業務アプリケーションの実装"
+            text: "マスタ管理アプリケーションの実装"
           }
         ]
       ]
