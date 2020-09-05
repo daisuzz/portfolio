@@ -27,8 +27,9 @@ export default {
     return {
       experiences: [
         {
-          title: "working at RECRUIT LIFESTYLE CO., LTD.",
-          text: `Java, Springを利用したBtoCサービスのバックエンドエンジニアとして働いています。`,
+          title: "working at Recruit Lifestyle Co., Ltd.",
+          text: `サーバサイドエンジニアとして美容系BtoCサービスの開発を行っています。
+          主な利用言語/フレームワークはJava, Springです。`,
           term: "2020/5 ~ "
         },
         {
