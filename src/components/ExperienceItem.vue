@@ -1,6 +1,5 @@
 <template>
-  <v-content class="mx-10 py-10"
-    >>
+  <v-content class="mx-10 py-10">
     <h1 class="font-italic font-weight-medium">Experience</h1>
     <v-timeline align-top dense>
       <v-timeline-item
