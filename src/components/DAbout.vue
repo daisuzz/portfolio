@@ -1,13 +1,12 @@
 <template>
-  <v-layout row wrap>
     <v-content class="mx-10 py-10">
       <v-row justify="space-around">
-        <v-col>
+        <v-col xl="6" lg="6" md="6" sm="6" cols="12">
           <v-avatar class="profile" size="180">
             <img src="../assets/icon.jpg" alt="daisuzz">
           </v-avatar>
         </v-col>
-        <v-col>
+        <v-col xl="6" lg="6" md="6" sm="6" cols="12">
           <h1 class="font-italic font-weight-medium">Suzuki Daisaku</h1>
           <p>
             東京でソフトウェアエンジニアとして働いています。<br/>
@@ -19,7 +18,6 @@
         </v-col>
       </v-row>
     </v-content>
-  </v-layout>
 </template>
 
 <script>

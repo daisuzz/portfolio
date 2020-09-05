@@ -3,17 +3,18 @@
     <h1 class="font-italic font-weight-medium">Skill</h1>
     <div class="text-center">
       <v-row v-for="i in 1" :key="i">
-        <v-col v-for="j in 3" :key="j">
+        <v-col v-for="j in 3" :key="j" xl="4" lg="4" md="4" cols="12">
           <v-card max-width="500" class="mx-auto">
             <v-card-title class="justify-center">{{
               skills[i - 1][j - 1].item
-            }}</v-card-title>
+              }}
+            </v-card-title>
             <v-rating
-              background-color="indigo lighten-3"
-              color="indigo"
-              :value="skills[i - 1][j - 1].rating"
-              readonly
-              large
+                    background-color="indigo lighten-3"
+                    color="indigo"
+                    :value="skills[i - 1][j - 1].rating"
+                    readonly
+                    large
             ></v-rating>
             <v-card-text>{{ skills[i - 1][j - 1].text }}</v-card-text>
           </v-card>
