@@ -1,36 +1,36 @@
 <template>
   <v-app>
-    <DHeader/>
+    <HeaderItem />
     <v-content>
-      <DAbout/>
+      <AboutItem />
       <v-divider></v-divider>
-      <DExperience/>
+      <ExperienceItem />
       <v-divider></v-divider>
-      <DSkill/>
+      <SkillItem />
       <v-divider></v-divider>
-      <DCertificate></DCertificate>
+      <CertificateItem></CertificateItem>
     </v-content>
-    <DFooter/>
+    <FooterItem />
   </v-app>
 </template>
 
 <script>
-  import DHeader from "./components/DHeader";
-  import DAbout from "./components/DAbout";
-  import DExperience from "./components/DExperience";
-  import DSkill from "./components/DSkill";
-  import DFooter from "./components/DFooter";
-  import DCertificate from "./components/DCertificate";
+import HeaderItem from "./components/HeaderItem";
+import AboutItem from "./components/AboutItem";
+import ExperienceItem from "./components/ExperienceItem";
+import SkillItem from "./components/SkillItem";
+import FooterItem from "./components/FooterItem";
+import CertificateItem from "./components/CertificateItem";
 
-  export default {
-    name: "App",
-    components: {
-      DHeader: DHeader,
-      DAbout: DAbout,
-      DExperience: DExperience,
-      DSkill: DSkill,
-      DCertificate: DCertificate,
-      DFooter: DFooter
-    }
-  };
+export default {
+  name: "App",
+  components: {
+    HeaderItem: HeaderItem,
+    AboutItem: AboutItem,
+    ExperienceItem: ExperienceItem,
+    SkillItem: SkillItem,
+    CertificateItem: CertificateItem,
+    FooterItem: FooterItem
+  }
+};
 </script>
