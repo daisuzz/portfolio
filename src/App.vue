@@ -31,6 +31,9 @@ export default {
     SkillItem: SkillItem,
     CertificateItem: CertificateItem,
     FooterItem: FooterItem
+  },
+  mounted() {
+    document.title = "daisuzz's portfolio";
   }
 };
 </script>
