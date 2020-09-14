@@ -5,9 +5,8 @@
       <v-list-item three-line>
         <v-list-item-content>
           <v-list-item-title
-            >Applied Information Technology Engineer
-            Examination</v-list-item-title
-          >
+            >Applied Information Technology Engineer Examination
+          </v-list-item-title>
           <v-list-item-subtitle>応用情報技術者試験</v-list-item-subtitle>
           <v-list-item-subtitle
             >IPA: Information-technology Promotion Agency,
