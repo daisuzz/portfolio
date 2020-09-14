@@ -1,6 +1,6 @@
 <template>
-  <v-content class="mx-10 py-10">
-    <v-row justify="space-around">
+  <v-content class="ma-12 pa-12">
+    <v-row justify="space-around" class="">
       <v-col xl="6" lg="6" md="6" sm="6" cols="12">
         <v-avatar class="profile" size="180">
           <img src="../assets/icon.jpg" alt="daisuzz" />
