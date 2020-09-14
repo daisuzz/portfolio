@@ -24,7 +24,7 @@
 
 <script>
 export default {
-  name: "DExperience",
+  name: "ExperienceItem",
   data: function() {
     return {
       experiences: [

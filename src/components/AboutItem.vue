@@ -22,6 +22,6 @@
 
 <script>
 export default {
-  name: "DAbout"
+  name: "AboutItem"
 };
 </script>

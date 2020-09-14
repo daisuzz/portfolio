@@ -33,7 +33,7 @@ import {
 } from "@mdi/js";
 
 export default {
-  name: "DHeader",
+  name: "HeaderItem",
   data: () => ({
     twitterSvgPath: mdiTwitterCircle,
     gitHubSvgPath: mdiGithubCircle,
