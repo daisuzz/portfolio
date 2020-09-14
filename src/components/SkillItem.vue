@@ -25,7 +25,7 @@
 
 <script>
 export default {
-  name: "DSkill",
+  name: "SkillItem",
   data: () => {
     return {
       skills: [
