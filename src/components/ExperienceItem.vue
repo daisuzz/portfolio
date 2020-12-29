@@ -9,9 +9,11 @@
         small
       >
         <v-row>
-          <v-col cols="3">
+          <v-col>
             <strong>{{ experience.term }}</strong>
           </v-col>
+        </v-row>
+        <v-row>
           <v-col>
             <strong>{{ experience.title }}</strong>
             <div class="">{{ experience.text }}</div>
