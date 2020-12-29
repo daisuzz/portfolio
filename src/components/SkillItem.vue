@@ -2,19 +2,12 @@
   <v-content class="mx-10 py-10">
     <h1 class="font-italic font-weight-medium">Skill</h1>
     <div class="text-center">
-      <v-row v-for="i in 1" :key="i">
+      <v-row v-for="i in 2" :key="i">
         <v-col v-for="j in 3" :key="j" xl="4" lg="4" md="4" cols="12">
           <v-card max-width="500" class="mx-auto">
             <v-card-title class="justify-center"
               >{{ skills[i - 1][j - 1].item }}
             </v-card-title>
-            <v-rating
-              background-color="indigo lighten-3"
-              color="indigo"
-              :value="skills[i - 1][j - 1].rating"
-              readonly
-              large
-            ></v-rating>
             <v-card-text>{{ skills[i - 1][j - 1].text }}</v-card-text>
           </v-card>
         </v-col>
@@ -31,21 +24,33 @@ export default {
       skills: [
         [
           {
-            item: "Java/SpringBoot, Thymeleaf",
-            rating: 3,
+            item: "Programing Languages",
             text:
-              "権限管理システム, 社員情報連携バッチシステム 入稿システム, BtoCアプリケーションの実装"
+              "Java, Kotlin, JavaScript(Node.js), HTML5, Go(hobby), Rust(hobby), Ocaml(hobby)"
           },
           {
-            item: "Kotlin (Server-side)/SpringBoot",
-            rating: 4,
+            item: "Frameworks and Libraries",
             text:
-              "権限管理システムの実装, 社員情報連携バッチシステムの実装, コンパイラ/アセンブラの実装"
+              "Spring Boot, Spring Security, Spring Session, Spring MVC, Spring Data JPA, MyBatis, Nuxt.js, Vue.js, Gin(hobby)"
           },
           {
-            item: "Node.js/Express.js/Vue.js",
-            rating: 2,
-            text: "マスタ管理アプリケーションの実装"
+            item: "Infrastructures",
+            text:
+              "EC2, ECS, Fargate, CloudWatch Logs, CloudTrail, X-Ray, S3, CloudFoundry,  CentOS 6 and 7, Chef, Ansible"
+          }
+        ],
+        [
+          {
+            item: "Middlewares",
+            text: "nginx, Apache"
+          },
+          {
+            item: "Data stores",
+            text: "MySQL, Oracle, Redis, SQLite, H2"
+          },
+          {
+            item: "Applications and Tools",
+            text: "Git, IntelliJ, Maven"
           }
         ]
       ]
