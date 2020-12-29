@@ -33,7 +33,7 @@ export default {
     FooterItem: FooterItem
   },
   mounted() {
-    document.title = "daisuzz's portfolio";
+    document.title = "daisuzz.dev";
   }
 };
 </script>
