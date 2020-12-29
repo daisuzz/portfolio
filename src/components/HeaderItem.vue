@@ -1,22 +1,11 @@
 <template>
   <div>
     <v-app-bar color="blue darken-4" :dark="true">
-      <v-toolbar-title class="headline text-uppercase">
-        <span class="font-weight-regular">daisuzz.dev</span>
-      </v-toolbar-title>
       <v-spacer></v-spacer>
-      <v-btn icon href="https://github.com/daisuzz" target="_blank">
-        <v-icon x-large>{{ gitHubSvgPath }}</v-icon>
-      </v-btn>
-      <v-btn icon href="https://twitter.com/daisuzz" target="_blank">
-        <v-icon x-large>{{ twitterSvgPath }}</v-icon>
-      </v-btn>
-      <v-btn icon href="https://www.linkedin.com/in/daisuzz" target="_blank">
-        <v-icon x-large>{{ linkedinSvgPath }}</v-icon>
-      </v-btn>
-      <v-btn icon href="https://iikanji.hatenablog.jp" target="_blank">
-        <v-icon x-large>{{ textSvgPath }}</v-icon>
-      </v-btn>
+      <v-app-bar-title class="headline text-uppercase">
+        <span class="font-weight-regular">daisuzz.dev</span>
+      </v-app-bar-title>
+      <v-spacer></v-spacer>
     </v-app-bar>
   </div>
 </template>
