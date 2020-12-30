@@ -1,5 +1,5 @@
 <template>
-  <div>
+  <div class="fill-height">
     <v-app-bar color="blue darken-4" :dark="true">
       <v-spacer></v-spacer>
       <v-app-bar-title class="headline text-uppercase">
