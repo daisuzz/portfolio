@@ -2,7 +2,7 @@
   <v-content>
     <div class="ma-12 pa-12">
       <v-row justify="center">
-        <v-col xl="3" lg="3" md="3" sm="6" xs="12" cols="12">
+        <v-col xl="3" lg="3" md="3" sm="3" xs="12" cols="12">
           <v-avatar class="profile" size="180">
             <img src="../assets/icon.jpg" alt="daisuzz" />
           </v-avatar>
