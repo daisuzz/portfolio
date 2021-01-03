@@ -1,5 +1,5 @@
 <template>
-  <v-content class="mx-10 py-10">
+  <v-main class="mx-10 py-10">
     <h1 class="font-italic font-weight-medium">Skill</h1>
     <div class="text-center">
       <v-row v-for="i in 2" :key="i">
@@ -13,7 +13,7 @@
         </v-col>
       </v-row>
     </div>
-  </v-content>
+  </v-main>
 </template>
 
 <script>

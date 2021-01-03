@@ -1,10 +1,10 @@
 <template>
-  <v-content class="mx-10 py-10">
+  <v-main class="mx-10 py-10">
     <h1 class="font-italic font-weight-medium">Experience</h1>
     <v-timeline align-top dense>
       <v-timeline-item
-        v-for="experience in experiences"
-        :key="experience"
+        v-for="(experience, index) in experiences"
+        :key="index"
         color="blue darken-4"
         small
       >
@@ -21,7 +21,7 @@
         </v-row>
       </v-timeline-item>
     </v-timeline>
-  </v-content>
+  </v-main>
 </template>
 
 <script>
