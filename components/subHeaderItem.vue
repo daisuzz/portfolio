@@ -19,20 +19,15 @@
   </div>
 </template>
 <script>
-import {
-  mdiGithubCircle,
-  mdiLinkedinBox,
-  mdiTagTextOutline,
-  mdiTwitterCircle
-} from "@mdi/js";
+import {mdiGithub, mdiLinkedin, mdiTextBoxMultipleOutline, mdiTwitter} from "@mdi/js";
 
 export default {
   name: "HeaderItem",
   data: () => ({
-    twitterSvgPath: mdiTwitterCircle,
-    gitHubSvgPath: mdiGithubCircle,
-    linkedinSvgPath: mdiLinkedinBox,
-    textSvgPath: mdiTagTextOutline
+    twitterSvgPath: mdiTwitter,
+    gitHubSvgPath: mdiGithub,
+    linkedinSvgPath: mdiLinkedin,
+    textSvgPath: mdiTextBoxMultipleOutline
   })
 };
 </script>

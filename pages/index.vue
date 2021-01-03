@@ -2,25 +2,25 @@
   <v-app>
     <HeaderItem />
     <SubHeaderItem />
-    <v-content>
+    <v-main>
       <AboutItem />
       <v-divider></v-divider>
       <ExperienceItem />
       <v-divider></v-divider>
       <SkillItem />
       <v-divider></v-divider>
-    </v-content>
+    </v-main>
     <FooterItem />
   </v-app>
 </template>
 
 <script>
-import HeaderItem from "./components/HeaderItem";
-import SubHeaderItem from "@/components/SubHeaderItem";
-import AboutItem from "./components/AboutItem";
-import ExperienceItem from "./components/ExperienceItem";
-import SkillItem from "./components/SkillItem";
-import FooterItem from "./components/FooterItem";
+import HeaderItem from "../components/headerItem";
+import SubHeaderItem from "../components/subHeaderItem";
+import AboutItem from "../components/aboutItem";
+import ExperienceItem from "../components/experienceItem";
+import SkillItem from "../components/skillItem";
+import FooterItem from "../components/footerItem";
 
 export default {
   name: "App",

@@ -9,22 +9,10 @@
     </v-app-bar>
   </div>
 </template>
-<script>
-import {
-  mdiGithubCircle,
-  mdiLinkedinBox,
-  mdiTagTextOutline,
-  mdiTwitterCircle
-} from "@mdi/js";
 
+<script>
 export default {
-  name: "HeaderItem",
-  data: () => ({
-    twitterSvgPath: mdiTwitterCircle,
-    gitHubSvgPath: mdiGithubCircle,
-    linkedinSvgPath: mdiLinkedinBox,
-    textSvgPath: mdiTagTextOutline
-  })
+  name: "HeaderItem"
 };
 </script>
 
