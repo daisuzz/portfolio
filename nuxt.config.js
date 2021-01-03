@@ -1,6 +1,10 @@
 export default {
     buildModules: [
-        '@nuxtjs/vuetify'
+        ['@nuxtjs/vuetify', {
+            defaultAssets: {
+                icons: false
+            }
+        }]
     ],
     target: 'static',
     generate: {
