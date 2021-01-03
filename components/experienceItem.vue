@@ -16,7 +16,8 @@
         <v-row>
           <v-col>
             <strong>{{ experience.title }}</strong>
-            <div class="">{{ experience.text }}</div>
+            <div class="">{{ experience.text_ja }}</div>
+            <div class="">{{ experience.text_en }}</div>
           </v-col>
         </v-row>
       </v-timeline-item>
@@ -32,19 +33,20 @@ export default {
       experiences: [
         {
           title: "working at Recruit Lifestyle Co., Ltd.",
-          text: `Develop BtoC web services as a Server-side engineer.`,
+          text_ja: `BtoCのWebアプリケーションの新規機能バックエンド開発/保守・運用`,
+          text_en: `Develop BtoC web services as a server-side engineer.`,
           term: "2020/5 ~ "
         },
         {
           title: "worked at Yahoo JAPAN Corporation",
-          text: `Developed platform applications as a corporate engineer and a scrum master.
-          I developed with Java, Spring, Kotlin, Node.js, Nuxt.js, etc.`,
+          text_ja: `人事システムや社員権限管理システムのフロントエンド,バックエンド開発/保守・運用`,
+          text_en: `Developed platform applications as a server-side engineer and a scrum master.`,
           term: "2017/4 ~ 2020/4"
         },
         {
           title: "finished Master's degree in Chiba University.",
-          text:
-            "Graduate School of Advanced Integration Science, Department Information Science.",
+          text_ja: "Webアプリケーションのセッション管理手法について研究",
+          text_en: "Graduate School of Advanced Integration Science, Department Information Science.",
           term: "2015/4 ~ 2017/3"
         }
       ]
