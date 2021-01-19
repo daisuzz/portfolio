@@ -1,6 +1,6 @@
 <template>
   <v-main>
-    <div class="ma-12 pa-12">
+    <div class="ma-4 pa-4 ma-sm-12 pa-sm-12 ma-md-16 pa-md-16 ma-lg-16 pa-lg-16">
       <v-row justify="center">
         <v-col xl="3" lg="3" md="3" sm="12" xs="12" cols="12">
           <v-avatar class="profile" size="180">
