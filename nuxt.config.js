@@ -1,11 +1,12 @@
 export default {
     buildModules: [
-        ['@nuxtjs/vuetify', {
-            defaultAssets: {
-                icons: false
-            }
-        }]
+        ['@nuxtjs/vuetify']
     ],
+    vuetify: {
+        defaultAssets: {
+            font: false,
+        }
+    },
     target: 'static',
     generate: {
         dir: 'docs'
@@ -22,5 +23,5 @@ export default {
             }
         ],
         link: [{rel: 'icon', type: 'image/x-icon', href: '/favicon.ico'}]
-    }
+    },
 }
